@@ -1,0 +1,23 @@
+using System;
+
+namespace convertereasy
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double usdtorub = 66.29;
+            double usdtouah = 27.24;
+            double usd;
+
+            Console.WriteLine("Введите сумму в usd: ");
+
+            usd = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(usd + " usd в uah = " + usd * usdtouah);
+
+            Console.WriteLine(usd + " usd в rub = " + usd * usdtorub);
+
+        }
+    }
+}
